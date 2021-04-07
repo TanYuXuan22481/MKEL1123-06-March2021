@@ -40,7 +40,7 @@ int main(void)
 //		method 2
 //		PORTA PIN5 is pointing to LD2 in NUCLEO_F446RE
 	    HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_5);
-			HAL_Delay(500); //0.5s
+	    HAL_Delay(500); //0.5s
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
